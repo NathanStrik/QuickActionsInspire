@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickAction, force:hasRecordId">
+	<div>Record ID in Aura wrapper: {!v.recordId}</div>
+	<c:numberAdder recordId="{!v.recordId}"></c:numberAdder>
+</aura:component>

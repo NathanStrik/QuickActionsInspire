@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <labels>
+        <fullName>SecurityErrorFieldNotInsertable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorFieldNotInsertable</shortDescription>
+        <value>You do not have the correct permissions to insert field {1} for object {0}</value>
+    </labels>
+
+    <labels>
+        <fullName>SecurityErrorFieldNotReadable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorFieldNotReadable</shortDescription>
+        <value>You do not have the correct permissions to read the field {1} for {0}</value>
+    </labels>
+
+    <labels>
+        <fullName>SecurityErrorFieldNotUpdateable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorFieldNotUpdateable</shortDescription>
+        <value>You do not have the correct permissions to update the field {1} for {0}</value>
+    </labels>
+
+    <labels>
+        <fullName>SecurityErrorObjectNotDeletable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorObjectNotDeletable</shortDescription>
+        <value>You do not have the correct permissions to delete {0}</value>
+    </labels>
+
+    <labels>
+        <fullName>SecurityErrorObjectNotInsertable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorObjectNotInsertable</shortDescription>
+        <value>You do not have the correct permissions to insert {0}</value>
+    </labels>
+
+    <labels>
+        <fullName>SecurityErrorObjectNotReadable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorObjectNotReadable</shortDescription>
+        <value>You do not have the correct permissions to read {0}</value>
+    </labels>
+
+    <labels>
+        <fullName>SecurityErrorObjectNotUpdateable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecurityErrorObjectNotUpdateable</shortDescription>
+        <value>You do not have the correct permissions to update {0}</value>
+    </labels>
+
+</CustomLabels>

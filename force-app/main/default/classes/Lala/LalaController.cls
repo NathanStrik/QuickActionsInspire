@@ -3,7 +3,10 @@ public with sharing class LalaController {
 	public static void addLala(Id recordId) {
 		if (String.isBlank(recordId))
 			return;
-		Contact innocentVictim = [SELECT Id, Email FROM Contact	WHERE Id = :recordId];
+
+		Contact innocentVictim = (Contact) SecurityUtils.checkRead((Contact) [
+			SELECT Email FROM Contact WHERE Id = :recordId
+		]);
 
 		try {
 			innocentVictim.Email = 'Lala.' + innocentVictim.Email;

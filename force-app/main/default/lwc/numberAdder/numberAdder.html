@@ -1,0 +1,18 @@
+<template>
+	<lightning-quick-action-panel header={headerLabel}>
+		<div class="slds-m-around_medium">
+			<div>Record ID in LWC: {recordId}</div>
+			<div class="slds-m-vertical_small">
+				<lightning-input type="number" name="myNumber" data-id="num1" label="Number 1"></lightning-input>
+			</div>
+			<div class="slds-m-vertical_small">
+				<lightning-input type="number" name="myNumber" data-id="num2" label="Number 2"></lightning-input>
+			</div>
+			<div class="slds-m-vertical_small">Resulting sum: {sum}</div>
+			<div slot="footer">
+				<lightning-button if:true={isQuickAction} class="slds-m-right_x-small" label="Cancel" onclick={handleCancel}></lightning-button>
+				<lightning-button class="slds-m-right_x-small" variant="brand" label="Add" onclick={handleAddition}></lightning-button>
+			</div>
+		</div>
+	</lightning-quick-action-panel>
+</template>

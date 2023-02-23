@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+	<labels>
+		<fullName>Number_Adder_Header</fullName>
+		<categories>Number Adder</categories>
+		<language>en_US</language>
+		<protected>true</protected>
+		<shortDescription>Label for modal header of Number Adder Quick Action</shortDescription>
+		<value>Number Adder</value>
+	</labels>
+</CustomLabels>
